@@ -1,0 +1,16 @@
+{
+  "name": "recepcionista-ia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Recepcionista virtual con IA para Regina Salud: agente con herramientas sobre el turnero del sitio.",
+  "license": "MIT",
+  "author": "devop-arg",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/*.test.js"
+  }
+}
